@@ -1,0 +1,129 @@
+    h2 {
+      color: blue;
+      text-align: center;
+    }
+
+    h3 {
+      color: blue;
+    }
+
+    .list1 {
+      text-indent: 50px;
+    }
+
+    .list2 {
+      text-indent: 80px;
+    }
+
+    input {
+      position: relative;
+      display: inline-block;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid green;
+    }
+
+    .buttons input {
+      position: relative;
+      display: inline-block;
+      width: 95%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid green;
+    }
+
+    .text-box input {
+      position: relative;
+      display: inline-block;
+      width: 85%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid green;
+    }
+
+    .text-box1 input {
+      position: relative;
+      display: inline-block;
+      width: 85%;
+      padding: 40px 20px;
+      margin: 8px 180px;
+      box-sizing: border-box;
+      border: 2px solid green;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    radio-button {
+      float: left;
+      padding: 0px 1em 0px 8px;
+    }
+
+    input[type=radio],
+    input.radio {
+      float: inline;
+      margin: 10px 10px;
+    }
+
+    }
+
+    .check-item label {
+      border-color: green;
+      font-weight: normal;
+    }
+
+    .dropbtn {
+      color: black;
+      font-size: 12px;
+      border-color: green;
+      cursor: pointer;
+      padding: 12px 18px;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      padding: 12px 20px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .button {
+      background-color: blue;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .submit {
+      border-radius: 12px;
+    }
