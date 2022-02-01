@@ -3,7 +3,7 @@
 
 <head>
   <title>Vishma Ambelal Rama Homework Day: 2</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" type="text">
 </head>
 
 <body>
