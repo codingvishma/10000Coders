@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Calculator using Switch..Case</title>
+</head>
+<body>
+<button onclick="myfunction()">Try it</button>
+<script>
+function addsTwoNumbers(a, b) {
+ const sum = a + b;
+ return sum;
+
+ }
+function subtractsTwoNumbers(a, b) {
+ const difference = a - b;
+ return difference;
+ 
+ }
+ 
+ function mutlipliesTwoNumbers(a, b) {
+ const product = a * b;
+ return product;
+ }
+
+ function dividesTwoNumbers(a, b) {
+ const div = a / b;
+ return div;
+ }
+ 
+ function myfunction() {
+ const operator = prompt('Enter operator (use either +, -, * or / ): ');
+ const a = parseFloat(prompt('Enter first number: '));
+ const b = parseFloat(prompt('Enter second number: '));
+ 
+ switch (operator) {
+  case '+': addsTwoNumbers(a, b);
+  const add = addsTwoNumbers(a, b);
+  document.write(add);
+  break;
+  
+  case '-': subtractsTwoNumbers(a,b);
+  const minus = subtractsTwoNumbers(a, b);
+  document.write(minus);
+  break;
+  
+  case '*': mutlipliesTwoNumbers(a,b);
+  const product = mutlipliesTwoNumbers(a, b);
+  document.write(product);
+  break; 
+  
+  case '/': dividesTwoNumbers(a,b);
+  const divide = dividesTwoNumbers(a, b);
+  document.write(divide);
+  break;
+  
+  default: document.write("Unknown operator <br />")
+  }
+}
+ </script>
+</body>
+</html>
