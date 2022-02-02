@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Calculator using If..Else If..Else</title>
+</head>
+<body>
+<button onclick="myfunction()">Try it</button>
+<script>
+function addsTwoNumbers(a, b) {
+ const sum = a + b;
+ return sum;
+
+ }
+function subtractsTwoNumbers(a, b) {
+ const difference = a - b;
+ return difference;
+ 
+ }
+ 
+function mutlipliesTwoNumbers(a, b) {
+ const product = a * b;
+ return product;
+ }
+
+function dividesTwoNumbers(a, b) {
+ const div = a / b;
+ return div;
+ }
+ 
+ 
+ 
+ function myfunction() {
+ const operator = prompt('Enter operator (use either +, -, * or / ): ');
+ const a = parseFloat(prompt('Enter first number: '));
+ const b = parseFloat(prompt('Enter second number: '));
+ if (operator == "+") {
+ addsTwoNumbers();
+ const add = addsTwoNumbers(a, b);
+ document.write(add);
+ }
+ else if (operator == "-") {
+ subtractsTwoNumbers();
+ const minus = subtractsTwoNumbers(a, b);
+ document.write(minus);
+ }
+ else if (operator == "*") {
+ mutlipliesTwoNumbers();
+ const product = mutlipliesTwoNumbers(a, b);
+ document.write(product);
+ }
+ else if (operator == "/") {
+ dividesTwoNumbers();
+ const divide = dividesTwoNumbers(a, b);
+ document.write(divide);
+ }
+}
+ </script>
+</body>
+</html>
+
+
